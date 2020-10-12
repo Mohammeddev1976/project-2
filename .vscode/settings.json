@@ -1,0 +1,9 @@
+{
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "scm.alwaysShowRepositories": true,
+    "editor.wordWrap": "on",
+    "editor.columnSelection": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "vscode-w3cvalidation.trace.server": "messages"
+}

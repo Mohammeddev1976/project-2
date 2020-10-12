@@ -1,0 +1,460 @@
+body
+ {
+padding-top:5%;
+padding-left: 15%;
+padding-right: 15%;
+padding-bottom: 10%;
+font-family: 'Cinzel', serif;
+}
+
+
+
+.containeur
+  {
+  display: flex;
+  justify-content:center ;
+ background-color:#CCCCCC;
+ flex-direction: row;
+border: 1px solid black;
+
+ }
+
+
+.flex1
+ {
+background-color:#FFCC00;
+flex:1.5;
+
+ }
+
+
+
+
+.flex2
+ {
+background-color:white;
+flex: 3;
+
+}
+
+
+
+
+
+
+
+ /* action css pour la  balise div flex1 */
+
+.icons-headpage
+ {
+ 	display: flex;
+justify-content:center;
+align-items: center;
+padding-top: 10px;
+
+
+}
+.fa-globe-europe
+ {
+background-color:#FEC907;
+font-size: 160px;
+
+
+}
+
+
+
+
+
+
+ /*intro3 et 4 css pour la balise h1 */
+.contact
+ {
+background-color: #000000;
+font-size: 25px;
+font-family:Tahoma, Geneva, sans-serif;
+text-transform: uppercase;
+padding-top: 6px;
+padding-bottom: 3px;
+height: 40px;
+}
+
+.intro3
+ {
+ color:#FFCC00;
+ text-align:center;
+}
+
+
+.information-perso
+ {
+margin-left: 20px;
+
+}
+
+.intro5
+ {
+background-color: #000000;
+ text-align:center;
+font-size: 25px;
+padding-top: 6px;
+padding-bottom: 3px;
+height: 40px;
+}
+
+.intro6
+ {
+height: 100px;
+margin-top: 60px;
+color:#FFCC00;
+
+}
+
+.lettre-motiv
+ {
+ margin-top: -30px;
+ margin-left: 30px;
+ width: 65%;
+ text-align: justify;
+ height: 260px;
+ font-size: 12px;
+ line-height: 20px;
+}
+
+.intro8
+ {
+   padding-top: 6px;
+padding-bottom: 3px;
+ background-color: #000000;
+ height: 40px;
+}
+
+.intro9
+ {
+margin-top:200px ;
+ color:#FFCC00;
+font-size: 20px;
+text-align: center;
+
+}
+/*icons  */
+.icons
+ {
+
+display: flex;
+justify-content:space-around;
+align-items:flex-end;
+height: 150px;
+padding-bottom: 50px;
+background-color:#FEC907;
+}
+
+
+
+
+
+.fa-football-ball
+ {
+
+font-size: 40px;
+border: solid 3px black;
+width: 50px;
+height: 50px;
+border-radius: 50%
+}
+
+
+.fa-table-tennis
+
+ {
+
+font-size: 40px;
+border: solid 3px black;
+width: 50px;
+height: 50px;
+border-radius: 50%
+}
+.fa-water
+ {
+
+font-size: 40px;
+border: solid 3px black;
+width: 50px;
+height: 50px;
+border-radius: 50%
+}
+
+
+
+a
+ {
+text-decoration: none;
+}
+/*action pour la balise divflex2  */
+
+.intro11
+
+  {
+ font-size: 40px;
+ font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ margin-left:60px;
+ margin-top: 50px;
+
+ }
+
+.intro12
+ {
+color:#FFCC00 ;
+}
+.intro13
+ {
+ font-size: 22px;
+
+   margin-left:60px;
+   margin-top:-50px;
+
+}
+
+
+ .intro14
+ {
+ border-bottom: groove ;
+ border-bottom-color:#FFCC00;
+
+}
+
+ .fa-graduation-cap
+ {
+ margin-left:70px;
+ font-size: 23px;
+ margin-top: 20px;
+ color:#FFCC00;
+ border-radius: 50px;
+}
+
+.intro15
+ {
+ font-size: 23px;
+}
+hr
+ {
+ width: 80%;
+ height: 1px;
+ background-color: #FFCC00;
+ margin-top: -20px;
+}
+.fa-circle
+ {
+position:absolute;
+background-color:#FFCC00 ;
+margin-left: -20px;
+margin-top:0px;
+border-radius: 50%
+}
+.intro17
+ {
+position: absolute;
+margin-top: 15px;
+ margin-left:100px;
+ font-size: 12px;
+}
+
+.intro18
+ {
+margin-left: 260px;
+font-size: 17px;
+margin-top:20px;
+}
+
+.intro19
+ {
+ margin-left: 260px;
+ margin-top: -30px;
+font-size: 12px;
+ width: 270px;
+ height: 80px;
+ padding-bottom: 20px;
+
+
+}
+
+
+.intro20
+ {
+ margin-left:100px;
+ font-size: 12px;
+}
+.intro21
+ {
+
+ margin-left: 260px;
+ margin-top:-30px;
+}
+.intro22
+ {
+ margin-left: 260PX;
+ margin-top: -25px;
+font-size: 12px;
+ width: 270px;
+ height: 80px;
+
+
+}
+
+.intro23
+ {
+margin-left:70px;
+ font-size: 23px;
+ margin-top: 70px;
+}
+.fa-briefcase
+ {
+width:30px;
+height: 30px;
+color:#FFCC00;
+}
+
+
+.intro24
+
+ {
+  margin-left:100px;
+   font-size: 12px;
+}
+
+
+.intro24bis
+
+ {
+  margin-left:100px;
+   font-size: 12px;
+}
+.intro24bis1
+
+ {
+   margin-left:100px;
+    font-size: 12px;
+}
+.intro25
+ {
+ margin-left: 260px;
+ font-size: 12px;
+ margin-top:-27px;
+}
+
+.intro25bis
+ {
+ margin-left: 260px;
+ font-size: 12px;
+   margin-top:-27px;
+}
+
+.intro25bis1
+ {
+ margin-left: 260px;
+ font-size: 12px;
+margin-top:-27px;
+}
+
+
+
+
+
+
+
+
+.intro26
+ {
+  margin-left:70px;
+ font-size: 23px;
+ margin-top: 160px;
+
+}
+
+.fa-pencil-alt
+ {
+ color: #FFCC00;
+}
+
+
+.paragraphe
+
+ {
+
+margin-top: -70px;
+
+width: 550px;
+height: 200px;
+margin-left:50px;
+}
+
+.texte1
+ {
+ margin-left:50px;
+ font-size: 15px;
+ margin-top: 100px;
+
+ width: 160px;
+ height: 100px;
+}
+
+.texte2
+ {
+ margin-left: 300px;
+ font-size: 15px ;
+ margin-top: -100px;
+ width: 160px;
+ height: 100px;
+}
+
+/* partie responsive  */
+
+@media screen and (max-width:1024px){
+body
+ {
+padding-left:0%;
+padding-right:0%;
+}
+
+.containeur
+{
+flex-direction:column;
+
+border: 1px solid black;
+}
+.flex1
+ {
+
+  min-width: 500px;
+}
+.flex2
+ {
+
+ min-width: 500px;
+}
+.intro18,.intro19,.intro21,.intro22,.intro25,.intro25bis,.intro25bis1
+ {
+margin-left: 220px;
+}
+.intro15,.intro23,.intro26
+ {
+font-size: 20px;
+}
+
+ .intro10
+ {
+width:30px;
+height:30px;
+}
+.intro3,.intro6,.intro9
+ {
+font-size: 15px;
+}
+
+}
+@media screen and (max-width:700px){
+body
+ {
+padding-left:0%;
+padding-right:0%;
+}
