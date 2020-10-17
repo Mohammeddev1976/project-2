@@ -1,9 +1,8 @@
 body
  {
-padding-top:5%;
+margin-bottom: 0px;
 padding-left: 15%;
 padding-right: 15%;
-padding-bottom: 10%;
 font-family: 'Cinzel', serif;
 }
 
@@ -12,11 +11,9 @@ font-family: 'Cinzel', serif;
 .containeur
   {
   display: flex;
-  justify-content:center ;
+  justify-content:center;
  background-color:#CCCCCC;
  flex-direction: row;
-border: 1px solid black;
-
  }
 
 
@@ -45,15 +42,11 @@ flex: 3;
 
  /* action css pour la  balise div flex1 */
 
-.icons-headpage
- {
- 	display: flex;
-justify-content:center;
-align-items: center;
-padding-top: 10px;
 
 
-}
+
+
+
 .fa-globe-europe
  {
 background-color:#FEC907;
@@ -192,7 +185,7 @@ text-decoration: none;
 }
 /*action pour la balise divflex2  */
 
-.intro11
+.identite
 
   {
  font-size: 40px;
@@ -274,10 +267,14 @@ font-size: 12px;
  width: 270px;
  height: 80px;
  padding-bottom: 20px;
-
-
 }
 
+.icons-headpage
+ {
+   margin-top: 40px;
+  margin-left:100px;
+  font-size: 12px;
+}
 
 .intro20
  {
@@ -419,7 +416,6 @@ margin:0%;
 .containeur
 {
 flex-direction:column;
-
 border: 1px solid black;
 }
 .flex1
@@ -455,7 +451,7 @@ height:30px;
 font-size: 10px;
 margin-top: 60px;
 }
-.intro11
+.identite
 {
   font-size: 15px;
   margin-top: 20px;
