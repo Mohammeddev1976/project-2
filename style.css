@@ -1,8 +1,9 @@
 body
  {
-margin-bottom: 0px;
+padding-top:5%;
 padding-left: 15%;
 padding-right: 15%;
+padding-bottom: 10%;
 font-family: 'Cinzel', serif;
 }
 
@@ -11,9 +12,11 @@ font-family: 'Cinzel', serif;
 .containeur
   {
   display: flex;
-  justify-content:center;
+  justify-content:center ;
+ background-color:#CCCCCC;
  flex-direction: row;
- border: solid black 2px;
+border: 1px solid black;
+
  }
 
 
@@ -29,7 +32,7 @@ flex:1.5;
 
 .flex2
  {
-
+background-color:white;
 flex: 3;
 
 }
@@ -42,11 +45,15 @@ flex: 3;
 
  /* action css pour la  balise div flex1 */
 
+.icons-headpage
+ {
+ 	display: flex;
+justify-content:center;
+align-items: center;
+padding-top: 10px;
 
 
-
-
-
+}
 .fa-globe-europe
  {
 background-color:#FEC907;
@@ -72,7 +79,7 @@ padding-bottom: 3px;
 height: 40px;
 }
 
-.info-contact
+.intro3
  {
  color:#FFCC00;
  text-align:center;
@@ -82,11 +89,10 @@ height: 40px;
 .information-perso
  {
 margin-left: 20px;
-margin-right: 5px;
 
 }
 
-.infos
+.intro5
  {
 background-color: #000000;
  text-align:center;
@@ -96,7 +102,7 @@ padding-bottom: 3px;
 height: 40px;
 }
 
-.information
+.intro6
  {
 height: 100px;
 margin-top: 60px;
@@ -115,7 +121,7 @@ color:#FFCC00;
  line-height: 20px;
 }
 
-.occupation
+.intro8
  {
    padding-top: 6px;
 padding-bottom: 3px;
@@ -186,7 +192,7 @@ text-decoration: none;
 }
 /*action pour la balise divflex2  */
 
-.identite
+.intro11
 
   {
  font-size: 40px;
@@ -210,7 +216,7 @@ color:#FFCC00 ;
 }
 
 
- .underline-yellow
+ .intro14
  {
  border-bottom: groove ;
  border-bottom-color:#FFCC00;
@@ -253,14 +259,14 @@ margin-top: 15px;
  font-size: 12px;
 }
 
-.forma-pro-first
+.intro18
  {
 margin-left: 260px;
 font-size: 17px;
 margin-top:20px;
 }
 
-.forma-pro-title
+.intro19
  {
  margin-left: 260px;
  margin-top: -30px;
@@ -268,27 +274,23 @@ font-size: 12px;
  width: 270px;
  height: 80px;
  padding-bottom: 20px;
+
+
 }
 
-.icons-headpage
- {
-   margin-top: 40px;
-  margin-left:100px;
-  font-size: 12px;
-}
 
-.date-first
+.intro20
  {
  margin-left:100px;
  font-size: 12px;
 }
-.forma-pro-second
+.intro21
  {
 
  margin-left: 260px;
  margin-top:-30px;
 }
-.forma-pro-title*
+.intro22
  {
  margin-left: 260PX;
  margin-top: -25px;
@@ -299,7 +301,7 @@ font-size: 12px;
 
 }
 
-.profession
+.intro23
  {
 margin-left:70px;
  font-size: 23px;
@@ -313,7 +315,7 @@ color:#FFCC00;
 }
 
 
-.exp-pro-first
+.intro24
 
  {
   margin-left:100px;
@@ -321,33 +323,33 @@ color:#FFCC00;
 }
 
 
-.date-second
+.intro24bis
 
  {
   margin-left:100px;
    font-size: 12px;
 }
-.date-third
+.intro24bis1
 
  {
    margin-left:100px;
     font-size: 12px;
 }
-.exp-pro-second
+.intro25
  {
  margin-left: 260px;
  font-size: 12px;
  margin-top:-27px;
 }
 
-.exp-pro-third
+.intro25bis
  {
  margin-left: 260px;
  font-size: 12px;
    margin-top:-27px;
 }
 
-.exp-pro-last
+.intro25bis1
  {
  margin-left: 260px;
  font-size: 12px;
@@ -361,7 +363,7 @@ margin-top:-27px;
 
 
 
-.ref-pro
+.intro26
  {
   margin-left:70px;
  font-size: 23px;
@@ -408,38 +410,36 @@ margin-left:50px;
 /* partie responsive  */
 
 @media screen and (max-width:1024px){
- html,body
+html,body
  {
-padding:0%;
-margin:0%;
+padding:0px;
+margin:0px;
 }
 
 .containeur
-{
+{ 
+	
 flex-direction:column;
-border: 1px solid black;
+flex-wrap: wrap;
+
 }
 .flex1
  {
-
-  min-width: 360px;
+ min-width: 300px;
  
 }
 .flex2
  {
-
- min-width: 360px;
+min-width: 300px;
+ 
 }
 .intro18,.intro19,.intro21,.intro22,.intro25,.intro25bis,.intro25bis1
  {
-margin-top: 38px;
-margin-left: 50px;
-
+margin-left: 220px;
 }
 .intro15,.intro23,.intro26
  {
-font-size: 15px;
-margin-top: 20px;
+font-size: 20px;
 }
 
  .intro10
@@ -447,57 +447,15 @@ margin-top: 20px;
 width:30px;
 height:30px;
 }
-.intro13
-{
-font-size: 10px;
-margin-top: 60px;
-}
-.identite
-{
-  font-size: 15px;
-  margin-top: 20px;
-}
-.intro17{
-  font-size: 15px;
-  margin-top: 0px;
-}
-
 .intro3,.intro6,.intro9
  {
 font-size: 15px;
 }
-.texte1
-{
-  font-size: 10px;
-  margin-left: 7px;
-}
-.intro26
-{
-font-size: 20px;
-}
-
-
-
-
-
-.texte2
-{
-  font-size: 10px;
-  margin-left: 7px;
-  margin-top: 10px;
-}
-
-.paragraphe
-{
-  width: 300px;
-}
-
-
 
 }
-@media screen and (max-width:700px){
-body
- {
-padding:0%;
-margin:0%;
-}
+ 
+ 
+ 
+  
+
+ 
