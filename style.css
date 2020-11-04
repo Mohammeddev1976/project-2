@@ -7,18 +7,15 @@ padding-bottom: 10%;
 font-family: 'Cinzel', serif;
 }
 
-
-
 .containeur
   {
-  display: flex;
-  justify-content:center ;
- background-color:#CCCCCC;
- flex-direction: row;
+display: flex;
+justify-content:center ;
+background-color:#CCCCCC;
+flex-direction: row;
 border: 1px solid black;
 
  }
-
 
 .flex1
  {
@@ -27,21 +24,12 @@ flex:1.5;
 
  }
 
-
-
-
 .flex2
  {
 background-color:white;
 flex: 3;
 
 }
-
-
-
-
-
-
 
  /* action css pour la  balise div flex1 */
 
@@ -52,20 +40,13 @@ justify-content:center;
 align-items: center;
 padding-top: 10px;
 
-
 }
 .fa-globe-europe
  {
 background-color:#FEC907;
 font-size: 160px;
 
-
 }
-
-
-
-
-
 
  /*intro3 et 4 css pour la balise h1 */
 .contact
@@ -84,7 +65,6 @@ height: 40px;
  color:#FFCC00;
  text-align:center;
 }
-
 
 .information-perso
  {
@@ -149,10 +129,6 @@ padding-bottom: 50px;
 background-color:#FEC907;
 }
 
-
-
-
-
 .fa-football-ball
  {
 
@@ -162,7 +138,6 @@ width: 50px;
 height: 50px;
 border-radius: 50%
 }
-
 
 .fa-table-tennis
 
@@ -183,8 +158,6 @@ width: 50px;
 height: 50px;
 border-radius: 50%
 }
-
-
 
 a
  {
@@ -209,12 +182,10 @@ color:#FFCC00 ;
 .intro13
  {
  font-size: 22px;
-
    margin-left:60px;
    margin-top:-50px;
 
 }
-
 
  .intro14
  {
@@ -275,9 +246,7 @@ font-size: 12px;
  height: 80px;
  padding-bottom: 20px;
 
-
 }
-
 
 .intro20
  {
@@ -298,7 +267,6 @@ font-size: 12px;
  width: 270px;
  height: 80px;
 
-
 }
 
 .intro23
@@ -314,14 +282,12 @@ height: 30px;
 color:#FFCC00;
 }
 
-
 .intro24
 
  {
   margin-left:100px;
    font-size: 12px;
 }
-
 
 .intro24bis
 
@@ -356,13 +322,6 @@ color:#FFCC00;
 margin-top:-27px;
 }
 
-
-
-
-
-
-
-
 .intro26
  {
   margin-left:70px;
@@ -376,13 +335,10 @@ margin-top:-27px;
  color: #FFCC00;
 }
 
-
 .paragraphe
 
- {
-
+{
 margin-top: -70px;
-
 width: 550px;
 height: 200px;
 margin-left:50px;
@@ -420,26 +376,29 @@ margin:0px;
 { 
 	
 flex-direction:column;
-flex-wrap: wrap;
 
 }
 .flex1
  {
- min-width: 360px;
- 
+ min-width: 280px;
+  text-align: center;
 }
 .flex2
  {
-min-width: 360px;
+min-width: 280px;
+
  
 }
-.intro18,.intro19,.intro21,.intro22,.intro25,.intro25bis,.intro25bis1
- {
-margin-left: 220px;
+.lettre-motiv
+{
+  margin-left: 20%;
+  line-height: 20px;
 }
-.intro15,.intro23,.intro26
- {
-font-size: 20px;
+.intro11,
+.intro13,
+.intro15
+{
+text-align: center;	
 }
 
  .intro10
@@ -447,15 +406,93 @@ font-size: 20px;
 width:30px;
 height:30px;
 }
+
 .intro3,.intro6,.intro9
  {
 font-size: 15px;
 }
 
+.intro18,
+.intro19,
+.intro21,
+.intro22,
+.intro25,
+.intro25bis,
+.intro25bis1
+ {
+margin-left: 400px;
 }
- 
- 
- 
-  
+.intro15,.intro23,.intro26
+ {
+font-size: 25px;
+}
+.texte2
+ {
+margin-left: 350px;
+}
 
+
+}
+ @media screen and (max-width:540px){
+.container{
+	min-width: 280px;
+}
+.texte1 ,.texte2{
+margin: 0px;
+font-size:12px;
+margin: auto;
+}
+.paragraphe{
+width:100%;
+margin-top: 0%;
+margin-left: 0%;	
+}
+.intro11
+ {
+font-size: 30px;
+}
+.intro13
+ {
+ font-size: 15px;
+}
+.intro15
+{
+text-align: center;
+text-align:justify-all;
+  }  
+.intro11,
+.intro12,
+.intro13,
+.intro16,
+.intro17,
+.intro18,
+.intro19,
+.intro20,
+.intro21,
+.intro22,
+.intro23,
+.intro24,
+.intro24bis,
+.intro24bis1,
+.intro25,
+.intro25bis,
+.intro25bis1,
+.intro26
+{   
+width: 100%;
+text-align: justify;
+text-align: center;
+margin-left: 0%;
+margin-top:0%;
+}
+
+.intro18{
+margin-top:40px; 	
+}
+.intro23,
+.intro26
+{
+font-size: 16px;	
+}
+ }
  
